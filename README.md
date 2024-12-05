@@ -1,6 +1,6 @@
-# Image Dithering Processor
+# Dither_it
 
-A Processing sketch that applies dithering effects to images using the `imageprocessing` library by Milchreis.
+An Image Dithering Processor made with Processing, that applies dithering effects to images using the `imageprocessing` library by Milchreis.
 
 ## Features
 
