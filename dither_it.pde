@@ -19,8 +19,19 @@ void draw() {
     PImage processed = img;
     processed = Dithering.apply(processed, Dithering.BAYER_8x8);
     image(processed, 0, 0, width, height);
+
+    textAlign(CENTER, CENTER);
+    textSize(16);
+    rectMode(CENTER);
+    noStroke();
+    fill(0);
+    rect(width/2, height-20, 480, 30);
+    fill(255);
+    textSize(12);
+    text("Press L to a New Image or Press S to save the current Dithered image.\nUse the left or right arrow keys to swap between 3 different dither effects.", width/2, height-20);
   } else {
     fill(255);
+    textSize(16);
     text(message, width/2, height/2);
   }
 
