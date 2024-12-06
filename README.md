@@ -1,6 +1,8 @@
 # Dither_it
 
-An Image Dithering Processor made with Processing, that applies dithering effects to images using the `imageprocessing` [library by Milchreis](https://github.com/Milchreis/processing-imageprocessing).
+![alt text](dither-BAYER_8x8.png)
+
+An Image Dithering Processor made with Processing, that applies various dithering effects to images using the `imageprocessing` [library by Milchreis](https://github.com/Milchreis/processing-imageprocessing).
 
 ## Features
 
