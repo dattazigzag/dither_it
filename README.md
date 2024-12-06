@@ -1,6 +1,6 @@
 # Dither_it
 
-An Image Dithering Processor made with Processing, that applies dithering effects to images using the `imageprocessing` library by Milchreis.
+An Image Dithering Processor made with Processing, that applies dithering effects to images using the `imageprocessing` [library by Milchreis](https://github.com/Milchreis/processing-imageprocessing).
 
 ## Features
 
@@ -21,17 +21,18 @@ An Image Dithering Processor made with Processing, that applies dithering effect
 2. Install the Image Processing Library:
    - Open Processing
    - Go to `Sketch > Import Library > Add Library`
-   - Search for "Image Processing"
-   - Install the library by Milchreis
+   - Search for "[Image Processing](https://github.com/Milchreis/processing-imageprocessing)". Install the library by Milchreis
+
+3. Or, just install one of the binaries. :)
 
 ## Usage
 
 ### Controls
 
-- `L`: Load a new image
-- `←/→`: Switch between dithering effects
-- `S`: Save current dithered image
-- `ESC`: Close application
+- `L`: Load a new image.
+- `←/→`: Switch between dithering effects (We ahve got 3).
+- `S`: Save current dithered image.
+- `ESC`: Close application.
 
 ### Output
 
